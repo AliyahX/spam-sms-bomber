@@ -84,7 +84,7 @@ if cho==1:
 		try:
 			num=int(input(Style.BRIGHT+'කෙලවන්න ඕන අංකෙ ගහන්න(07xxxxxxxx): '))
 			num='0'+str(num)
-			if len(num) == 10 and str(num)[0:3] in ('070','071','072','075','076','077','078'):
+			if len(num) == 10 and str(num)[0:3] in ('070','071','072','075','076','077','078','074'):
 				break
 			else:
 				print(Fore.LIGHTRED_EX + 'ගහපු අංකෙ වැරදියි.. හරියට අංකෙ ගහන්න!')
@@ -115,7 +115,7 @@ if cho==1:
 	print(logo)
 	print(bar+'\n')
 	time.sleep(0.5)
-	print(f'\t{Style.BRIGHT}මේක ආතල් ගන්න විතරක් Use කරපන් මේකෙන් පළිගන්න එපෝ!!\n\t     https://t.me/anusara_bemal ' )
+	print(f'\t{Style.BRIGHT}මේක ආතල් ගන්න විතරක් Use කරපන් මේකෙන් පළිගන්න එපෝ!!\n\t     Aliyah X ' )
 	print(Fore.YELLOW+Style.BRIGHT+'\tදැන් නවත්තන්න ඕන නම් Ctrl+c ඔබන්න')
 	if num[0:3] == '077' or num[0:3] == '076':
 		count=0
